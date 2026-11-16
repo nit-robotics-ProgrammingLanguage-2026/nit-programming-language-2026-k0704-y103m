@@ -6,12 +6,12 @@ static int total_sum = 0;
 total_sum += add_value;
 return total_sum;
 }
- 
+
 int main(void) {
 int input_count;
 int result_sum = 0;
  
-scanf("%d", &input_count);
+ scanf("%d", &input_count);
  
 /* 入力値が1未満または10より大きい場合はエラー表示して終了 */
 if (input_count < 1 || input_count > 10) {
